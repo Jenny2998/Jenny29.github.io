@@ -28,11 +28,16 @@ h4{
 
 
 }
+.bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:rgb(97, 97, 97)
+}
 
 .grid-container {
-    margin-left: 500px;
+    /* margin-left: 500px; */
     display: grid;
-    grid-template-columns: 0fr 0fr 1fr fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     grid-template-areas:
       "h h h . ."
@@ -44,36 +49,36 @@ h4{
   }
   
   .h { grid-area: h; 
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
   .v { grid-area: v; 
-margin-right: 200px;
+/* margin-right: 200px; */
 }
   
   .g { grid-area: g; 
-    margin-top: -20px
+    /* margin-top: -20px */
 }
   
   .s { grid-area: s;
-margin-top: -10px;
+/* margin-top: -10px; */
 }
   
   .l { grid-area: l;
-margin-top: -30px; 
+/* margin-top: -30px;  */
 }
   
   .e { grid-area: e; 
-    margin-left: -200px;
+    /* margin-left: -200px; */
 }
   
   .w { grid-area: w; 
-  margin-top: -196px;
-  margin-left: -200px;
+  /* margin-top: -196px;
+  margin-left: -200px; */
   
 }
   .r { grid-area: r; 
-margin-top: 50px;
+/* margin-top: 50px; */
 }
 #img {
     margin-left: 297px;
@@ -100,7 +105,7 @@ margin-top: 50px;
 }*/
 
 @media screen and (max-width: 800px) {
-    .grid-containercontainer{
+    .grid-container{
         display: grid;
        
         grid-template-columns: 1fr;
@@ -124,7 +129,7 @@ margin-top: 50px;
   }
 
 .v { grid-area: v; 
-margin-top: 900px;
+/* margin-top: 900px; */
 }
   
 .g { grid-area: g; 
@@ -147,8 +152,8 @@ margin-top: 900px;
 
 }
 #img {
-    margin-left: 30px;
-    margin-bottom: -70px;
+    /* margin-left: 30px;
+    margin-bottom: -70px; */
 } 
 
 h4{
